@@ -1,0 +1,42 @@
+#main-card {
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(83, 2, 2, 0.2); /* Sombra más suave y visible */
+    padding: 25px;
+    margin: 10px;
+    max-width: 300px;
+    transition: transform 0.3s ease; 
+  }
+  
+
+  
+  .image-container img {
+    box-shadow: 0 4px 10px rgba(83, 2, 2, 0.2); /* Sombra más suave y visible */
+
+    width: 100%;
+    border-radius: 12px;
+    max-height: 150px;
+  }
+  
+.image-container:hover {
+  transform: scale(1.05);
+  transition: ease-in-out 0.5ms;
+}
+
+  .info-container {
+    margin-top: 10px;
+  }
+  
+  .info-container h1 {
+    color: rgb(94, 24, 68);
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .info-container p {
+    font-size: 14px;
+    color: rgb(56, 37, 49);
+  }
+  
